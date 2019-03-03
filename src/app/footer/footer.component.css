@@ -1,0 +1,14 @@
+.FooterContainer{
+    margin: 0px;
+    display: block;
+    position: absolute;
+    background-color: lightslategray;
+    border-radius: 5px;
+    /* left: auto;
+    right: auto; */
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    width: 100%;
+}

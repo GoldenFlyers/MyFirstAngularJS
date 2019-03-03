@@ -1,0 +1,17 @@
+<p>
+    Welcome {{Name}}!
+</p>
+<h2>Total : {{2+2}}</h2>
+<h2 class="text-success">{{"Welcome " + Name}}</h2>
+<h2>{{Name.length}}</h2>
+<h2 [class]="successClass">{{Name.toUpperCase()}}</h2>
+<h2>{{greetUser()}}</h2>
+<h2>{{siteURL}}</h2>
+<input [id]="myID" type="text" value="Apurva"><br>
+<input disabled id="{{myID}}" type="text" value="disabled"><br>
+<input [disabled]="IsDisabled" id="{{myID}}" type="text" value="[disabled]=IsDisabled">
+<ul>
+    <li><a target="_blank" rel="noopener" href="#">Tab 1</a></li>
+    <li><a target="_blank" rel="noopener" href="https://www.Google.com">Tab 2</a></li>
+</ul>
+
